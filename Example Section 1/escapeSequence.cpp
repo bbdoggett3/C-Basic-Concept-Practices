@@ -21,6 +21,9 @@ int main() {
    cout << "\t Slash"   << setw(7) << "\\\\" << endl;
    cout << "\t SQuote"  << setw(6) << "\\\'" << endl;
    cout << "\t DQuote"  << setw(6) << "\\\"" << endl;
+   cout << endl;
+   cout << "\t\tB\tE\tN\n";
+   cout << "\tR\tU\tL\tE\tS\n";
 
    return 0;
 }
