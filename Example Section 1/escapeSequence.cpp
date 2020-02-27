@@ -21,9 +21,26 @@ int main() {
    cout << "\t Slash"   << setw(7) << "\\\\" << endl;
    cout << "\t SQuote"  << setw(6) << "\\\'" << endl;
    cout << "\t DQuote"  << setw(6) << "\\\"" << endl;
+   
    cout << endl;
+
+   //Exercise #3 on pg 32 Procedural Programing
    cout << "\t\tB\tE\tN\n";
    cout << "\tR\tU\tL\tE\tS\n";
+
+   //Exercise #4 on pg.32 Procedural Programming
+   cout << setw(15) << "/\\/\\/\\" << endl;
+   cout << setw(15) << "\\/\\/\\/" << endl;
+
+   //Exercise #7 on pg. 33 Procedural Programming
+   cout.setf(ios::fixed);
+   cout.setf(ios::showpoint);
+   cout.precision(2);
+
+   cout << "Bill:" << endl;
+   cout << "\t$" << setw(6) << 10.00 << " - Price" << endl;
+   cout << "\t$" << setw(6) << 1.50 << " - Tip" << endl;
+   cout << "\t$" << setw(6) << 11.50 << " - Total" << endl;
 
    return 0;
 }
